@@ -1,0 +1,54 @@
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background: #6699CC;
+}
+
+
+
+
+
+
+.menu {
+    position: absolute;
+    bottom: 0;
+    margin: 20px;
+}
+
+.menu-item {
+    font-size: 200px;
+    margin: 4px;
+    overflow: hidden;
+    margin-top: -50px;
+}
+
+.menu-item-wrapper {
+    display: flex;
+    position: relative;
+    left: -20%;
+    transition: all 0.2s ease-out;
+}
+
+ion-icon {
+    position: relative;
+    top: 8px;
+    margin-right: 10px;
+    color: #ff1493;
+   
+}
+
+.menu-item:hover .menu-item-wrapper {
+    left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000044;
+    font-family: "Helvetica";
+    font-weight: 400;
+}
+
